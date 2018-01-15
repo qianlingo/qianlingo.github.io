@@ -37,7 +37,7 @@ function showNumberWithAnimation(i, j, randNumber ){
 		numberCell.text("浣熊");
 	}
 	else if(randNumber==4096){
-		numberCell.text("I❤朱皖琼");
+		numberCell.text("I❤ZWQ");
 	}
 	numberCell.animate({
 		width:cellSideLength,
