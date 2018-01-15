@@ -128,7 +128,7 @@ function updateBoardView(){
 					theNumberCell.text("浣熊");
 				}
 				else if(randNumber==4096){
-					theNumberCell.text("I❤朱皖琼");
+					theNumberCell.text("I❤ZWQ");
 				}
 				
 
