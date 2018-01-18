@@ -94,41 +94,39 @@ function updateBoardView(){
 
 					//自定义优化
 				var randNumber=board[i][j];
-				if (randNumber==2){
-					theNumberCell.text("煮糊了");
-				}
-				else if(randNumber==4){
-					theNumberCell.text("一点点");
+				if(randNumber==4){
+					theNumberCell.text("初见");
 				}
 				else if(randNumber==8){
-					theNumberCell.text("星巴克");
+					theNumberCell.text("一点点");
 				}
 				else if(randNumber==16){
-					theNumberCell.text("神奇女侠");
+					theNumberCell.text("星巴克");
 				}
 				else if(randNumber==32){
-					theNumberCell.text("羞羞的铁拳");
+					theNumberCell.text("神奇女侠");
 				}
 				else if(randNumber==64){
-					theNumberCell.text("老爷锅");
+					theNumberCell.text("羞羞的铁拳");
 				}
 				else if(randNumber==128){
-					theNumberCell.text("海底捞");
+					theNumberCell.text("老爷锅");
 				}
 				else if(randNumber==256){
-					theNumberCell.text("熊大");
-				}
-				else if(randNumber==512){
-					theNumberCell.text("熊二");
-				}
-				else if(randNumber==1024){
 					theNumberCell.text("浅灵");
 				}
-				else if(randNumber==2048){
+				
+				else if(randNumber==512){
 					theNumberCell.text("浣熊");
 				}
-				else if(randNumber==4096){
+				else if(randNumber==1024){
 					theNumberCell.text("I❤ZWQ");
+				}
+				else if(randNumber==2048){
+					theNumberCell.text("海底捞");
+				}
+				else if(randNumber==4096){
+					theNumberCell.text("南京");
 				}
 				
 
@@ -169,7 +167,7 @@ function generateOneNumber(){
 	}
 	//随机生成一个数字
 	//50%概率生成随机数2和4
-	var randNumber=Math.random()<0.5?2:4;
+	var randNumber=Math.random()<0.5?4:8;
 
 	//在随机位置上显示随机的数字
 		board[randx][randy]=randNumber;
